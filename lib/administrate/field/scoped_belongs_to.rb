@@ -1,9 +1,12 @@
+require 'administrate/field/belongs_to'
 require 'administrate/field/scoped_belongs_to/version'
-require 'rails'
+require 'rails/engine'
 
 module Administrate
   module Field
     class ScopedBelongsTo < Administrate::Field::BelongsTo
+      include ScopedBelongsToVersion
+
       class Engine < ::Rails::Engine
       end
 

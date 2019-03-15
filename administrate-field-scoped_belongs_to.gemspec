@@ -4,7 +4,7 @@ require 'administrate/field/scoped_belongs_to/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'administrate-field-scoped_belongs_to'
-  spec.version       = Administrate::Field::ScopedBelongsTo::VERSION
+  spec.version       = Administrate::Field::ScopedBelongsToVersion::VERSION
   spec.authors       = ['Derk-Jan Karrenbeld']
   spec.email         = ['derk-jan@xpbytes.com']
 
