@@ -1,7 +1,7 @@
 module Administrate
   module Field
-    class ScopedBelongsToVersion
-      VERSION = '0.2.0'.freeze
+    module ScopedBelongsToVersion
+      VERSION = '0.2.1'.freeze
     end
   end
 end
